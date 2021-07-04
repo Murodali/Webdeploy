@@ -32,8 +32,8 @@ export default class testimonials extends Component {
 
                                     <div className="info">
                                         <h3>Umed Babakhanov</h3>
-                                        <p>CEO of ASIA PLUS, Tajkistan</p>
-                                        <p>Murodali did an excelent job for out company</p>
+                                        <p><b>CEO of ASIA PLUS, Tajkistan</b></p>
+                                        <p><b>Murodali is an exceptional induvial. He worked at Asia Plus as intern and later implement seeral web developmet projects. He is highly creative, responsive and reliable. I enjoyed working with and looking forward to hire him for further projects </b></p>
                                     </div>
 
                                 </Carousel.Item>
@@ -45,8 +45,8 @@ export default class testimonials extends Component {
 
                                     <div className="info">
                                         <h3>Erik Kraus</h3>
-                                        <p> Dean of Student Success at Sampoerna University </p>
-                                        <p>Murodali is an outstanding student who has a strong entrepreneurial orientation.  I worked with him for four years at the University of Central Asia and found him to be intelligent, dependable, and highly reliable.  I would certainly hire him to work on one of my projects.</p>
+                                        <p><b>Dean of Student Success at Sampoerna University </b></p>
+                                        <p> <b> Murodali is an outstanding student who has a strong entrepreneurial orientation.  I worked with him for four years at the University of Central Asia and found him to be intelligent, dependable, and highly reliable.  I would certainly hire him to work on one of my projects.</b></p>
                                     </div>
 
                                 </Carousel.Item>
