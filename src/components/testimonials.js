@@ -27,7 +27,7 @@ export default class testimonials extends Component {
                             <Carousel className="k">
                                 <Carousel.Item interval={1500}>
                                     <div className="avatar">
-                                        <img src="images/seo.png"></img>
+                                        <img src="images/umed.jpg"></img>
                                     </div>
 
                                     <div className="info">
@@ -40,13 +40,13 @@ export default class testimonials extends Component {
 
                                 <Carousel.Item interval={500}>
                                     <div className="avatar">
-                                        <img src="images/seo.png"></img>
+                                        <img src="images/erik.jpg"></img>
                                     </div>
 
                                     <div className="info">
                                         <h3>Umed Babakhanov</h3>
-                                        <p>CEO of ASIA PLUS, Tajkistan</p>
-                                        <p>Murodali did an excelent job for out company</p>
+                                        <p>Erik Krauss, Dean of Student Success at Sampoerna University: </p>
+                                        <p>Murodali is an outstanding student who has a strong entrepreneurial orientation.  I worked with him for four years at the University of Central Asia and found him to be intelligent, dependable, and highly reliable.  I would certainly hire him to work on one of my projects.</p>
                                     </div>
 
                                 </Carousel.Item>
