@@ -72,7 +72,7 @@ export default class ModalDoc extends Component {
                                     
 
                                     <div className="gitlab">
-                                    <a  href="https://github.com/Murodali/portfolioWebsite.git">https://github.com/Murodali/portfolioWebsite.git</a>
+                                    <a  href="https://github.com/Murodali/Webdeploy">https://github.com/Murodali/Webdeploy</a>
                                     </div>
 
 

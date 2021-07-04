@@ -211,7 +211,7 @@ const cards = [
 	{
 		title: "Mobile App Developer",
 		description:
-		"I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
+		"I love clean code and interactive user experiences. I also enjoy building crossplatform applications.",
 		info: "Languages and Frameworks I use:",
 		addinfo:"Java, Dart",
 		tools: "Dev Tools:",
