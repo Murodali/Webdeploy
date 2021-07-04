@@ -590,7 +590,7 @@ ul {
   }
 }
 .skills .skills-row .card-skills {
-  width: 120px;
+  width: 91px;
   overflow: visible;
   margin-left: auto;
   margin-right: auto;
@@ -1231,11 +1231,18 @@ ul {
     margin-bottom: 1em;
   }
 
+  .interested {
+    width: 100%;
+  }
   .interested .interested-row {
     display: grid;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
     align-items: center;
+  }
+  .interested .project-text {
+    margin-left: 4em;
+    margin-right: 4em;
   }
 
   .contact {
@@ -1339,10 +1346,14 @@ ul {
     justify-content: center;
     align-items: center;
   }
+  .interested .interested-row .project-text {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
 
   .contact {
     display: grid;
-    grid-template-columns: repeat(1, auto) !important;
+    grid-template-columns: repeat(1, 60%) !important;
     justify-content: center !important;
     align-items: center !important;
   }
