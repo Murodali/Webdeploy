@@ -1372,11 +1372,28 @@ ul {
     .info {
       text-align: center;
       margin-top: 2em;
-      font-size: 14px;
+      font-size: 16px;
 
-      p{
-        margin: auto;
+    
+
+      .testimony{
+
+        margin-left: 4em;
+        margin-right: 4em;
+      }
+
+      .left{
+        text-align: left;
+        margin-left: 1em;
+        margin-bottom: -1em;
         
+       
+      }
+
+      .right{
+        text-align: end;
+        margin-right: 1em;
+        margin-top: -1em;
       }
 
     }
