@@ -44,8 +44,8 @@ export default class testimonials extends Component {
                                     </div>
 
                                     <div className="info">
-                                        <h3>Umed Babakhanov</h3>
-                                        <p>Erik Krauss, Dean of Student Success at Sampoerna University: </p>
+                                        <h3>Erik Kraus</h3>
+                                        <p> Dean of Student Success at Sampoerna University </p>
                                         <p>Murodali is an outstanding student who has a strong entrepreneurial orientation.  I worked with him for four years at the University of Central Asia and found him to be intelligent, dependable, and highly reliable.  I would certainly hire him to work on one of my projects.</p>
                                     </div>
 
