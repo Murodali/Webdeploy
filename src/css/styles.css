@@ -983,7 +983,11 @@ ul {
     margin-top: 2em;
   }
   .testimonials .text-featured {
+    width: 100%;
     margin: auto;
+  }
+  .testimonials .text-featured .subtitle {
+    text-align: center;
   }
   .testimonials .text-featured .subtitle p {
     margin: auto;
