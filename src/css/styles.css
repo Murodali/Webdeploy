@@ -627,6 +627,7 @@ ul {
 .contact .col-2 .text-container p {
   font-size: 40px;
   font-weight: bold;
+  color: white;
 }
 .contact .col-2 .text-container button {
   color: white;
