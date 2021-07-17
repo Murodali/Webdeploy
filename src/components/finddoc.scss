@@ -224,6 +224,11 @@
 @media only screen and (max-width: 576px) {
 
   .modal-body-doc{
+    text-align: center;
+    h4{
+      margin: auto;
+      margin-top: 2em;
+    }
 
     .text-container{
       .subtitle{
@@ -261,12 +266,21 @@
      
       }
     }
+    .row{
+     
+      p{
+        text-align: center;
+        margin: auto;
+      }
+    }
 
     .gitlab{
+      margin-top: 2em;
       a{
         
         margin: auto ;
-        margin-left: 1em ;
+        margin-top: 2em;
+       
         
       }
     }

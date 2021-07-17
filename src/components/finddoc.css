@@ -204,6 +204,13 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .modal-body-doc {
+    text-align: center;
+  }
+  .modal-body-doc h4 {
+    margin: auto;
+    margin-top: 2em;
+  }
   .modal-body-doc .text-container .subtitle {
     text-align: center;
     margin: auto;
@@ -228,9 +235,16 @@
   .modal-body-doc .row-diagrams img {
     width: 90%;
   }
+  .modal-body-doc .row p {
+    text-align: center;
+    margin: auto;
+  }
+  .modal-body-doc .gitlab {
+    margin-top: 2em;
+  }
   .modal-body-doc .gitlab a {
     margin: auto;
-    margin-left: 1em;
+    margin-top: 2em;
   }
 
   .col {
