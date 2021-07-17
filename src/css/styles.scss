@@ -86,24 +86,14 @@
 
 
 #home .wave {
-  height: 96vh;
-  z-index: 5;
-  margin: 0;
-  margin-top: -1em;
-
-}
-
-.wave {
   transform: rotate(180deg);
-  left: 0;
+  margin-top: -1em;
+  z-index:1;
 }
 
-#home {
-  background-color: transparent;
-  position: relative;
-  width: 100%;
-  z-index: 0;
-}
+
+
+
 
 /**************************************************************************TYPOGRAPHY**************************************************************/
 
@@ -112,9 +102,10 @@
   margin: 0 auto;
   justify-content: space-between;
   width: 90%;
-  max-width: 1140px;
+  max-width: 1000px;
   align-items: center;
-  background-color: yellowgreen;
+
+ 
 
 
 }
@@ -134,11 +125,10 @@
 
 .intro{
   display: flex;
-  position: absolute;
   justify-content: space-between;
   align-items: center;
-  top: 10%;
-  width: 100%;
+  background-color: #6A88D6;
+  padding: 2em 0;
 
 
 
@@ -449,10 +439,10 @@
 
     }
   }
-  
+
+
+
 }
-
-
 
 
 
@@ -616,18 +606,24 @@ ul {
 
 }
 
-// .main-test{
-//   position: relative;
+.main-test{
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  
+  
 
-//   .test{
-//     width: 80%;
-//     position: absolute;
-//     opacity: 0.4 !important;
-//     z-index: 0;
-//     margin-left: 10em;
-//     margin-right: 10em;
-//   }
-// }
+  img{
+    width: 100%;
+    position: absolute;
+    opacity: 0.4 !important;
+    z-index: 0;
+    margin: auto;
+
+ 
+  
+  }
+}
 
 
 
@@ -793,41 +789,48 @@ ul {
   padding-top: 5em;
   z-index: 0;
   position: relative;
-  .text-container  {
-    background-color: hotpink;
+  margin-top: -1em;
 
-    p {
-      font-size: 40px;
-      font-weight: bold;
+
+  
+  .col-2{
+  
+    width: 45%;
+
+    .text-container  {
+      margin-left: 0;
+      width: 100%;
+
+  
+      p {
+        font-size: 40px;
+        font-weight: bold;
+      }
+  
+      button {
+        color: white;
+        background-color: #FC5BD8;
+        text-align: center;
+        padding: 0.5em 2.4em;
+        border-radius: 1em;
+        -webkit-transition: transform 1.05s ease-in-out;
+        -moz-transition: transform 1.05s ease-in-out;
+        -ms-transition: transform 1.05s ease-in-out;
+  
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+      }
+  
+      button:hover {
+        transform: scale(1.05);
+      }
+  
     }
 
-    button {
-      color: white;
-      background-color: #FC5BD8;
-      text-align: center;
-      padding: 0.5em 2.4em;
-      border-radius: 1em;
-      -webkit-transition: transform 1.05s ease-in-out;
-      -moz-transition: transform 1.05s ease-in-out;
-      -ms-transition: transform 1.05s ease-in-out;
-
-      box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    svg {
+      width: 90%;
+      margin-left: 0;
+  
     }
-
-    button:hover {
-      transform: scale(1.05);
-    }
-
-    // label{
-    //   font-size: 20px;
-    // }
-    // input{
-    //   font-size: 18px;
-    // }
-  }
-
-  svg {
-    width: 90%;
 
   }
 
@@ -1074,7 +1077,7 @@ ul {
 
 /******************************************************************************************INTERESTED*********************************************************************/
 .interested {
-  margin-top: 14em;
+  margin-top: 12em;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -1102,7 +1105,7 @@ ul {
 
     .text-featured {
       text-align: center;
-      background-color: #10F3E6;
+
     }
 
     .project-text {
@@ -1110,7 +1113,7 @@ ul {
       align-items: center;
       vertical-align: middle;
       margin-top: 1em;
-      background-color: #10F3E6;
+ 
     }
 
     .project-button {
@@ -1147,183 +1150,138 @@ ul {
 }
 
 
-// @media only screen and (max-width: 576px) { 
-//   #home{
-//     .wave{
-//       height: 50vh !important;
-//     }
-//   }
+@media only screen and (max-width: 576px) { 
 
-//   .navbar-collapse {
-//     text-align: center !important;
-//     margin: auto !important;
-//    }
 
-//   // .intro{
-//   //   display: grid !important;
-//   //   grid-template-columns: repeat(1,auto) !important;
+
+
+
+  .work{
+
+    .text-work{
+ 
+      margin: auto;
+    }
+
+    .work-row ul{
+      display: grid;
+      grid-template-columns: repeat(1,auto);
+      justify-content: center;
+      align-items: center;
+    }
+  
+
+  }
+
+  
+  .main-test{
+    margin: auto;
+    .test{
+    margin-left: 3em;
+    margin-right: 3em;
+      
+  }
+}
+
+  .testimonials{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+    align-items: center;
+
+    .people{
+      margin: auto;
+      width: 100%;
+      margin-top: 2em;
+    }
+
+    .text-featured{
+
+      margin: auto;
+      .subtitle{
+      
+
+        p{
+          margin: auto;
+      
+          margin-top: 2em !important;
+        }
+      }
+
+      .featured-desc{
+ 
+        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        
+      }
+    }
+  }
+
+  .interested{
+    width: 100%;
+
+
     
-//   //   text-align: center !important;
-//   //   .text-container{
-//   //    margin: auto;
-//   //     margin-top: 2em;
-
-
+    .interested-row{
+      
+      display: grid;
+      grid-template-columns: repeat(1,100%);
+      justify-content: center;
+      align-items: center;
      
-//   //     h1{
-//   //       font-size: 40px !important;
+    }
+
+
+
+    .project-text{
+      margin-left: 4em;
+      margin-right: 4em;
+    }
+  }
+
+  .contact{
+    display: grid;
+    grid-template-columns: repeat(1,90%);
+    justify-content: center;
+    align-items: center;
+
+
+    .container{
+
+      width: 100%;
+    }
+    .col-2{
+      margin: auto;
+      margin-left: 0 !important;
+      width: 100%;
+      .text-container{
+        margin: auto;
+        text-align: center;
+        margin-left: -1em;
+
+        .subtitle{
+          color: white;
+        }
         
-//   //       text-align: center;
-//   //     }
-//   //     p{
-//   //       font-size: 18px;
-//   //       text-align: center;
-        
-//   //     }
-    
-//   //   }
+      }
+    }
 
-//   //   svg{
-//   //     display: none;
-//   //   }
+    svg{
+      display: none;
+    }
+  }
 
-//   //   .scroll-down{
-//   //     display: none;
-//   //   }
-
-//   // }
-
-//   .about{
-//     display: grid;
-//     grid-template-columns: repeat(1,auto);
-//     justify-content: center;
-
-//     .text-featured{
-//       margin: auto;
-
-//       .subtitle{
-//         margin-bottom: 1em;
-//         text-align: center;
-      
-//       }
-
-//       p{
-//         margin-left: 2em;
-//         margin-right: 2em;
-//       }
-
-//     }
-
-//     img{
-//       display: block;
-//       margin: auto;
-//       width: 80%;
-//     }
-//   }
-
-//   .skills{
-
-//     .text-featured{
-//       text-align: center;
-//       margin: auto !important;
-//       p{
-//         text-align: center !important;
-//         margin: auto !important;
-//       }
-//     }
-//   }
-
-//   .work{
-
-//     .work-row ul{
-//       display: grid;
-//       grid-template-columns: repeat(1,auto);
-//       justify-content: center;
-//       align-items: center;
-//     }
-  
-
-//   }
-
-  
-//   .main-test{
-//     .test{
-//     margin-left: 4em;
-      
-//   }
-// }
-
-//   .testimonials{
-//     display: grid;
-//     grid-template-columns: repeat(1,auto);
-//     justify-content: center;
-//     align-items: center;
-
-//     .people{
-//       margin: auto;
-//     }
-
-//     .text-featured{
-//       text-align: center !important;
-//       .subtitle{
-//         text-align: center;
-//         margin: auto;
-
-//         p{
-//           margin: auto;
-//           text-align: center;
-//           margin-top: 2em !important;
-//         }
-//       }
-
-//       .featured-desc{
-//         text-align: center !important;
-//         margin: auto;
-//         margin-top: 1em;
-//         margin-bottom: 1em;
-//       }
-//     }
-//   }
-
-//   .interested{
-//     width: 100%;
-    
-//     .interested-row{
-//       display: grid;
-//       grid-template-columns: repeat(1,100%);
-//       justify-content: center;
-//       align-items: center;
-//     }
-
-
-
-//     .project-text{
-//       margin-left: 4em;
-//       margin-right: 4em;
-//     }
-//   }
-
-//   .contact{
-//     display: grid;
-//     grid-template-columns: repeat(1,auto);
-//     justify-content: center;
-//     align-items: center;
-
-//     .text-container{
-//       margin: auto;
-//       text-align: center;
-//     }
-
-//     svg{
-//       display: none;
-//     }
-//   }
+ .text-featured{
+   text-align: center;
+ }
 
 
 
 
 
-// }
+}
 
 // @media only screen and (max-width: 768px), only screen and (max-device-width:768px) { 
 

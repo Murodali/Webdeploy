@@ -5,20 +5,10 @@ import Wave from "react-wavify";
 
 export default function hero() {
   return (
-    <div id="home">
-      <Wave
-        className="wave"
-        fill="#6A88D6"
-        paused={false}
-        options={{
-          height: 20,
-          amplitude: 45,
-          speed: 0.1,
-          points: 5
-        }}
+    <div>
 
 
-      />
+    
       <div className="intro">
       <div className=" col-1 scroll-down ">
           <span>scroll-down</span>
@@ -718,6 +708,21 @@ export default function hero() {
 
 
       </div>
+
+      <div id="home">
+
+   
+<Wave
+  className="wave"
+  fill="#6A88D6"
+  paused={false}
+  options={{
+    height: 20,
+    amplitude: 45,
+    speed: 0.1,
+    points: 5
+  }}/>
+  </div>
 
 
     </div>

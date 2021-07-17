@@ -6,8 +6,11 @@ import Fade from 'react-reveal/Fade';
 export default class testimonials extends Component {
     render() {
         return (
-            <div className="main-test">
+            <div >
+                <div className="main-test">
                 <img src="images/people1.svg" className="test"></img>
+                </div>
+          
 
 
 
