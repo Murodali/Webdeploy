@@ -13,19 +13,23 @@ export default function skills() {
 	
 			<div className="  skills " id="myskills">
 
-
+				<div className="container">
 				<div className="text-featured">
 					<p className="subtitle ">My Skills </p>
 
 				</div>
+				</div>
+
+
+
 
 		
 
-				<div className="skills-row">
+				<div className="skills-row container">
 			
-					<div className="main">
 
-								<div className="container">
+
+								
 							
 								
 									<div className="row">
@@ -58,10 +62,7 @@ export default function skills() {
 
 				
 
-				</div>
-				
 			
-			</div>
 
 			</Particles>
 		

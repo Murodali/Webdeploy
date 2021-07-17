@@ -55,17 +55,18 @@ export default class mywork extends Component {
 	
 		
 	<Particle> 
-				<div className="work-text">
+				<div className="work-text container">
 	
 					<div className="text-work">
 						<p className="subtitle ">My Projects</p>
 					</div>
 	
 				</div>
+
 				
-	
-			
-				<div className="work-row">
+
+				<div className="container">
+				<div className="work-row ">
 			
 			
 					<ul>
@@ -150,6 +151,13 @@ export default class mywork extends Component {
 	
 					
 				</div>
+
+
+				</div>
+				
+	
+			
+
 				</Particle>
 			</div>
 
