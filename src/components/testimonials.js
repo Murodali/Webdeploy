@@ -26,7 +26,7 @@ export default class testimonials extends Component {
 </Fade>
 <Fade right>
     <div className="people">
-        <Carousel className="k">
+        <Carousel >
             <Carousel.Item interval={1500}>
                 <div className="avatar">
                     <img src="images/umed.jpg"></img>
@@ -46,7 +46,7 @@ export default class testimonials extends Component {
                 </div>
 
                 <div className="info">
-                    <h3>Erik Kraus</h3>
+                    <h3>Erik Krauss</h3>
                     <p><b>Dean of Student Success at Sampoerna University </b></p>
                     <h1 className="left">"</h1> <p className="testimony"> <b> Murodali is an outstanding student who has a strong entrepreneurial orientation.  I worked with him for four years at the University of Central Asia and found him to be intelligent, dependable, and highly reliable.  I would certainly hire him to work on one of my projects.</b></p><h1 className="right">"</h1>
                 </div>

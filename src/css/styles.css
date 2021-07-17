@@ -429,7 +429,7 @@ ul {
 }
 
 .carousel {
-  margin-bottom: 0;
+  width: 100%;
 }
 .carousel .carousel-control-prev {
   width: 4em;
