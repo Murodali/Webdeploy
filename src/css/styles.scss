@@ -7,6 +7,9 @@
   padding: 0;
 
 }
+nav{
+  background-color: #6187E9;
+}
 
 .logo-letter{
   font-family: 'Rouge Script', cursive;
@@ -26,7 +29,7 @@
 
 .navbar-collapse {
  text-align: center !important;
- margin-left: 18em !important;
+
 }
 
 
@@ -36,13 +39,7 @@
 
 }
 
-.navigation{
-  background-color: yellowgreen;
-  background-color: #6187E9;
-  justify-content: center;
-  margin: 0 auto;
-  display: flex;
-}
+
 
 
 .nav-color .nav-brand {
