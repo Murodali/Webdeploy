@@ -96,20 +96,24 @@ export default class mywork extends Component {
 
 
 	
-						{/* <Fade left>  
+						  <Fade left>  
 	
 						<li>
-							<img src="images/rideapp.png"></img>
+							<img src="images/linkedin.png"></img>
 							<div class="info">
-								<h1>GetaRide Mobile Application</h1>
-								<p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-								<button> Learn More</button>
+								<h1>Linkedin Clone</h1>
+								<p>This is a linkedin clone website</p>
+								<div className="modal_buttons">
+								<a href="https://linkedin-clone-4182c.web.app/"> Visit </a>
+								<a href="https://github.com/Murodali/linkedin-clone"> GitHub Repository</a>
+								</div>
+
 							</div>
 						</li>
 	
-						</Fade>
+						</Fade> 
 	
-						<Fade right> 
+						{/* <Fade right> 
 	
 						<li>
 							<img src="images/rideweb.png"></img>
@@ -145,7 +149,7 @@ export default class mywork extends Component {
 							</div>
 						</li>
 	
-						</Fade> */}
+						</Fade> */} */}
 	
 					</ul>
 	

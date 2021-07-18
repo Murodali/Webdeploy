@@ -39,10 +39,6 @@ nav {
   justify-content: space-between;
 }
 
-.navbar-toggler {
-  margin-right: 70px !important;
-}
-
 .navbar-light .navbar-brand {
   color: white !important;
 }
@@ -498,9 +494,9 @@ ul {
   width: 100%;
 }
 .work .work-row ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-gap: 4em;
   margin: auto;
   width: 100%;
 }
@@ -591,6 +587,25 @@ ul {
   z-index: 2 !important;
   transition: 0.4s !important;
   opacity: 0 !important;
+}
+.work .work-row ul li .modal_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.work .work-row ul li a {
+  padding: 0.5em 1.2em;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  background: #FC5BD8;
+  color: white;
+  cursor: pointer;
+  transition: 1.05s ease !important;
+  -webkit-transition: transform 1.05s ease-in-out !important;
+  -moz-transition: transform 1.05s ease-in-out !important;
+  -ms-transition: transform 1.05s ease-in-out !important;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 
 .c-row .wave {
