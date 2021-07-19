@@ -102,7 +102,7 @@ export default class mywork extends Component {
 							<img src="images/linkedin.png"></img>
 							<div class="info">
 								<h1>Linkedin Clone</h1>
-								<p>This is a linkedin clone website</p>
+								<p>This is a linkedin clone website that  I am developing.It is not a final version.</p>
 								<div className="modal_buttons">
 								<a href="https://linkedin-clone-4182c.web.app/"> Visit </a>
 								<a href="https://github.com/Murodali/linkedin-clone"> GitHub Repository</a>
@@ -149,7 +149,7 @@ export default class mywork extends Component {
 							</div>
 						</li>
 	
-						</Fade> */} */}
+						</Fade> */} 
 	
 					</ul>
 	
