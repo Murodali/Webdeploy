@@ -113,20 +113,21 @@ export default class mywork extends Component {
 	
 						</Fade> 
 	
-						{/* <Fade right> 
+					 <Fade right> 
 	
 						<li>
 							<img src="images/rideweb.png"></img>
 							<div class="info">
-								<h1>GetaRide Website</h1>
-								<p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-								<button> Learn More</button>
+								<h1>Slack CLone</h1>
+								<p>Tis is a slack clone that I build using Redux and Firebase</p>
+								<a href="https://slack-clone-3e763.web.app/"> Visit </a>
+								<a href="https://github.com/Murodali/slack-clone"> GitHub Repository</a>
 							</div>
 						</li>
 	
 						</Fade>
-	
-						<Fade left>  
+
+						{/* <Fade left>  
 						<li>
 							<img src="images/finddoc.png"></img>
 							<div class="info">
@@ -149,7 +150,7 @@ export default class mywork extends Component {
 							</div>
 						</li>
 	
-						</Fade> */} 
+						</Fade>  */}
 	
 					</ul>
 	
