@@ -116,12 +116,14 @@ export default class mywork extends Component {
 					 <Fade right> 
 	
 						<li>
-							<img src="images/rideweb.png"></img>
+							<img src="images/slack-clone.png"></img>
 							<div class="info">
 								<h1>Slack CLone</h1>
 								<p>Tis is a slack clone that I build using Redux and Firebase</p>
+								<div className="modal_buttons">
 								<a href="https://slack-clone-3e763.web.app/"> Visit </a>
 								<a href="https://github.com/Murodali/slack-clone"> GitHub Repository</a>
+								</div>
 							</div>
 						</li>
 	
