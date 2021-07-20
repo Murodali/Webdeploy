@@ -205,7 +205,7 @@ const cards = [
 		info: "Languages and Frameworks I use:",
 		addinfo:"HTML, Javascript, ReactJS, CSS, Sass",
 		tools: "Dev Tools:",
-		toolslist:"Boostrap NodeJS Styled Components Github Gitlab Bulma Redux Tailwind REST API Axios Redux",
+		toolslist:"Boostrap NodeJS Styled Components Github Gitlab Bulma Redux Tailwind REST API Axios ",
 		image: "images/web-dev.svg",
 		imageRatio: 839 / 1133
 	},
