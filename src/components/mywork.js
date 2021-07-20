@@ -87,7 +87,7 @@ export default class mywork extends Component {
 							<img src="images/website.png"></img>
 							<div class="info">
 								<h1>Murodali</h1>
-								<p>This is FindaDoc website and android mobile application</p>
+								<p>This is a personal portfolio</p>
 								<button onClick={this.openWebsite}> Learn More</button>
 							</div>
 						</li>
