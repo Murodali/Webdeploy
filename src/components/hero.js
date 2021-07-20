@@ -25,7 +25,7 @@ export default function hero() {
 
             <h1 >
               <span content="H" className="icon-move">H</span>
-              <span content="i" className="icon-move">I</span>
+              <span content="i" className="icon-move">i</span>
               <span content="," className="icon-move">,</span>
               {'  '}
               <span content="I" className="icon-move">I</span>
