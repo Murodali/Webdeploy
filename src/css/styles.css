@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: #6187E9;
+  background-color: #6187e9;
 }
 
 .logo-letter {
@@ -14,7 +14,7 @@ nav {
 }
 
 .nav-color {
-  background-color: #6187E9;
+  background-color: #6187e9;
   padding: 4em, 4em, 4em, 4em;
 }
 
@@ -47,7 +47,7 @@ nav {
   height: 50px;
 }
 .navbar-light .navbar-brand:hover {
-  color: #10F3E6 !important;
+  color: #10f3e6 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -55,7 +55,7 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #10F3E6 !important;
+  color: #10f3e6 !important;
 }
 
 #home .wave {
@@ -75,7 +75,7 @@ nav {
 }
 
 .subtitle {
-  color: #6A88D6;
+  color: #6a88d6;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-weight: bold;
@@ -87,7 +87,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6A88D6;
+  background-color: #6a88d6;
   padding: 2em 0;
 }
 .intro .col-1 {
@@ -100,7 +100,7 @@ nav {
 .intro .col-1 svg {
   width: 20%;
   -webkit-animation: float 1s infinite;
-          animation: float 1s infinite;
+  animation: float 1s infinite;
   display: inline-block;
   flex-direction: column;
   margin: 1em;
@@ -109,7 +109,7 @@ nav {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   -webkit-text-orientation: mixed;
-          text-orientation: mixed;
+  text-orientation: mixed;
   -webkit-animation-name: bounce-1;
   animation-name: bounce-1;
   -webkit-animation-timing-function: linear;
@@ -119,7 +119,7 @@ nav {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation: float 1s infinite;
-          animation: float 1s infinite;
+  animation: float 1s infinite;
   transform-origin: center;
   transform-box: fill-box;
   margin: 0 1em;
@@ -134,7 +134,7 @@ nav {
 }
 .intro .col-2 button {
   color: white;
-  background-color: #FC5BD8;
+  background-color: #fc5bd8;
   text-align: center;
   padding: 1em 1.8em;
   border-radius: 1em;
@@ -168,7 +168,7 @@ nav {
 
 /*******************************************************************SKILLS********************************************************************************/
 .skills {
-  background-color: #FC5BD8;
+  background-color: #fc5bd8;
   margin-bottom: -5em;
   padding-top: 4em;
 }
@@ -335,57 +335,57 @@ nav {
 }
 #Character {
   -webkit-animation: float 3s infinite;
-          animation: float 3s infinite;
+  animation: float 3s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 #Character:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 #speech_bubble {
   -webkit-animation: float 3s infinite;
-          animation: float 3s infinite;
+  animation: float 3s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 #speech_bubble:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 #window_2 {
   -webkit-animation: float 6s infinite;
-          animation: float 6s infinite;
+  animation: float 6s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 #window_2:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 #Clouds {
   -webkit-animation: float 6s infinite;
-          animation: float 6s infinite;
+  animation: float 6s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 #Clouds:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 #window_1 {
   -webkit-animation: float 7s infinite;
-          animation: float 7s infinite;
+  animation: float 7s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 #window_1:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @-webkit-keyframes float {
@@ -411,7 +411,8 @@ nav {
     transform: translatey(0px);
   }
 }
-ol, ul {
+ol,
+ul {
   padding-left: 0rem !important;
 }
 
@@ -453,10 +454,13 @@ ul {
   background-image: url("images/next.svg");
 }
 .carousel .carousel-control-next span {
-  color: #6187E9;
+  color: #6187e9;
 }
 .carousel .carousel-control-next .sr-only {
   display: none;
+}
+.carousel .carousel-inner {
+  height: 355px;
 }
 
 .main-test {
@@ -551,7 +555,7 @@ ul {
   outline: none;
   border: none;
   border-radius: 2em;
-  background: #FC5BD8;
+  background: #fc5bd8;
   color: white;
   cursor: pointer;
   transition: 1.05s ease !important;
@@ -597,7 +601,7 @@ ul {
   outline: none;
   border: none;
   border-radius: 2em;
-  background: #FC5BD8;
+  background: #fc5bd8;
   color: white;
   cursor: pointer;
   transition: 1.05s ease !important;
@@ -616,7 +620,7 @@ ul {
 
 /***********************************************************************************CONTACTS********************************************************************************/
 .contact {
-  background-color: #6A88D6;
+  background-color: #6a88d6;
   color: white;
   display: flex;
   align-items: center;
@@ -641,7 +645,7 @@ ul {
 }
 .contact .col-2 .text-container button {
   color: white;
-  background-color: #FC5BD8;
+  background-color: #fc5bd8;
   text-align: center;
   padding: 0.5em 2.4em;
   border-radius: 1em;
@@ -659,63 +663,63 @@ ul {
 }
 .contact #character_1 {
   -webkit-animation: float 1.5s infinite;
-          animation: float 1.5s infinite;
+  animation: float 1.5s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #character_1:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .contact #character_2 {
   -webkit-animation: float 1.3s infinite;
-          animation: float 1.3s infinite;
+  animation: float 1.3s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #character_2:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .contact #Window {
   -webkit-animation: float 1.2s infinite;
-          animation: float 1.2s infinite;
+  animation: float 1.2s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #Window:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .contact #Icons {
   -webkit-animation: float 1s infinite;
-          animation: float 1s infinite;
+  animation: float 1s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #Icons:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .contact #Pictures {
   -webkit-animation: float 2s infinite;
-          animation: float 2s infinite;
+  animation: float 2s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #Pictures:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 .contact #Device {
   -webkit-animation: float 1.6s infinite;
-          animation: float 1.6s infinite;
+  animation: float 1.6s infinite;
   transform-origin: center;
   transform-box: fill-box;
 }
 .contact #Device:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes float {
@@ -730,7 +734,7 @@ ul {
   }
 }
 .skill-desc-main {
-  color: #6A88D6;
+  color: #6a88d6;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -741,7 +745,7 @@ ul {
 }
 
 .footer {
-  background-color: #6187E9;
+  background-color: #6187e9;
   justify-content: center;
   margin: 0px auto;
   display: flex;
@@ -757,17 +761,17 @@ ul {
   transform: scale(1.1);
 }
 .footer #clip0:hover {
-  color: #FC5BD8;
+  color: #fc5bd8;
 }
 
 .icon-move:hover {
   -webkit-animation: shake 0.5s;
-          animation: shake 0.5s;
+  animation: shake 0.5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   display: inline-block;
   cursor: pointer;
-  color: #FC5BD8;
+  color: #fc5bd8;
   overflow: hidden;
 }
 
@@ -915,7 +919,7 @@ ul {
   padding: 0 2em;
   align-items: center;
   padding: 3em;
-  background-color: #FC5BD8;
+  background-color: #fc5bd8;
   border-radius: 2em;
   margin-bottom: -8em;
   z-index: 9;
@@ -952,7 +956,7 @@ ul {
   transform: scale(1.05);
 }
 .interested .interested-row .back {
-  background-color: #6187E9;
+  background-color: #6187e9;
   color: black;
   margin-top: 18em;
   margin-bottom: -8em;
@@ -1051,4 +1055,4 @@ ul {
   .text-featured {
     text-align: center;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
