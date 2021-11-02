@@ -34,7 +34,8 @@ export default class testimonials extends Component {
                       <p>
                         <b>CEO of ASIA PLUS, Tajkistan</b>
                       </p>
-                      <h1 className="left">"</h1>
+                      {/* <h1 className="left">"</h1> */}
+                      <img src="/images/open.svg" className="left" />
                       <p className="testimony">
                         <b>
                           Murodali is an exceptional induvial. He worked at Asia
@@ -44,7 +45,7 @@ export default class testimonials extends Component {
                           forward to hire him for further projects{" "}
                         </b>
                       </p>
-                      <h1 className="right">"</h1>
+                      <img src="/images/close.svg" className="right"></img>
                     </div>
                   </Carousel.Item>
 
@@ -58,7 +59,8 @@ export default class testimonials extends Component {
                       <p>
                         <b>Dean of Student Success at Sampoerna University </b>
                       </p>
-                      <h1 className="left">"</h1>{" "}
+                      {/* <h1 className="left">"</h1>{" "} */}
+                      <img src="/images/open.svg" className="left" />
                       <p className="testimony">
                         {" "}
                         <b>
@@ -71,7 +73,8 @@ export default class testimonials extends Component {
                           my projects.
                         </b>
                       </p>
-                      <h1 className="right">"</h1>
+                      {/* <h1 className="right">"</h1> */}
+                      <img src="/images/close.svg" className="right"></img>
                     </div>
                   </Carousel.Item>
                 </Carousel>

@@ -125,7 +125,7 @@ nav {
   margin: 0 1em;
 }
 .intro .col-2 {
-  width: 45%;
+  width: 50%;
   color: white;
 }
 .intro .col-2 h1 {
@@ -144,7 +144,8 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 .intro .col-2 svg {
-  width: 90%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 /********************************************************ABOUT*************************************************************/
@@ -153,10 +154,11 @@ nav {
   padding: 4em 0;
 }
 .about .col-2 {
-  width: 45%;
+  width: 50%;
 }
 .about .col-2 img {
-  width: 90%;
+  width: 80%;
+  margin-left: 10%;
   margin-bottom: 2em;
   border-radius: 2em;
   transition: 0.4s ease-out;
@@ -210,20 +212,22 @@ nav {
   margin-top: 1rem;
   font-weight: 100;
 }
-.skills .skills-row .row {
+.skills .skills-row .row_skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
 }
 .skills .skills-row .column {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(2, auto);
   padding: 10px;
   width: 100%;
   margin-bottom: -4em;
 }
 @media screen and (min-width: 922px) {
   .skills .skills-row .column {
-    width: 33.3333333333%;
+    width: 45%;
   }
 }
 .skills .skills-row .card {
@@ -254,7 +258,7 @@ nav {
   }
 }
 .skills .skills-row .card-skills {
-  width: 91px;
+  width: 100%;
   overflow: visible;
   margin-left: auto;
   margin-right: auto;

@@ -17,7 +17,7 @@ export default function skills() {
         </div>
 
         <div className="skills-row container">
-          <div className="row">
+          <div className="row_skills">
             {cards.map((card, i) => (
               <div className="column">
                 <Card>
@@ -27,7 +27,9 @@ export default function skills() {
                   <div className="card-title">{card.info}</div>
                   <div className="card-body">{card.addinfo}</div>
                   <div className="card-title">{card.tools}</div>
-                  <div className="card-skills">{card.toolslist}</div>
+                  {card.toolslist.map((title) => (
+                    <div className="card-skills">{title}</div>
+                  ))}
                 </Card>
               </div>
             ))}
@@ -154,8 +156,14 @@ const cards = [
     info: "Things I enjoy designing",
     addinfo: "UX, UI, Web, Mobile, Apps, Logos",
     tools: "Design Tools",
-    toolslist:
-      " Balsamiq Mockups Figma Invision Marvel Pen & Paper Sketch Webflow Zeplin WordPress",
+    toolslist: [
+      "Figma",
+      "Marvel",
+      "Pen & Paper",
+      "Webflow",
+      "Zeplin",
+      "WordPress",
+    ],
     image: "images/ui-main.svg",
     imageRatio: 784 / 1016,
   },
@@ -164,23 +172,25 @@ const cards = [
     description:
       "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
     info: "Languages and Frameworks I use:",
-    addinfo: "HTML, Javascript, ReactJS, CSS, Sass",
+    addinfo: "Javascript, ReactJS, Typescript, Sass",
     tools: "Dev Tools:",
-    toolslist:
-      "Boostrap NodeJS Styled Components Github Gitlab Bulma Redux Tailwind REST API Axios ",
+    toolslist: [
+      "Boostrap",
+      "NodeJS",
+      "Styled Components",
+      "GIT",
+      "Bulma",
+      "Redux/Redux Toolkit",
+      "Tailwind CSS",
+      "REST API",
+      "Axios",
+      "Web Sockets",
+      "Map Box",
+      "Pay U",
+      "Formik",
+      "React Router",
+    ],
     image: "images/web-dev.svg",
     imageRatio: 839 / 1133,
-  },
-  {
-    title: "Mobile App Developer",
-    description:
-      "I love clean code and interactive user experiences. I also enjoy building crossplatform applications.",
-    info: "Languages and Frameworks I use:",
-    addinfo: "Java, Dart",
-    tools: "Dev Tools:",
-    toolslist:
-      " Android Studio Flutter Github Gitlab JavaFX FireBase NodeJS REST API ",
-    image: "images/mb-dev.svg",
-    imageRatio: 730 / 1030,
   },
 ];
