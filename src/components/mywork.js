@@ -69,7 +69,7 @@ export default class mywork extends Component {
                       <div class="info">
                         <h1>Pizzeria Speranza</h1>
                         <p>Pizzeria Speranza offccial website</p>
-                        <a href="http://135.125.239.82:8081/#/home">Visit</a>
+                        <a href="http://135.125.239.81:3000/home">Visit</a>
                         {/* <button onClick={this.openWebsite}> Visit</button> */}
                       </div>
                     </li>
