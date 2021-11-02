@@ -59,7 +59,7 @@ export default class testimonials extends Component {
                       <p>
                         <b>Dean of Student Success at Sampoerna University </b>
                       </p>
-                      {/* <h1 className="left">"</h1>{" "} */}
+
                       <img src="/images/open.svg" className="left" />
                       <p className="testimony">
                         {" "}
@@ -73,7 +73,7 @@ export default class testimonials extends Component {
                           my projects.
                         </b>
                       </p>
-                      {/* <h1 className="right">"</h1> */}
+
                       <img src="/images/close.svg" className="right"></img>
                     </div>
                   </Carousel.Item>
