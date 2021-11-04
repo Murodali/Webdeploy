@@ -46,7 +46,11 @@ nav {
   width: 50px;
   height: 50px;
 }
-.navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:hover ~ :active {
+  color: #10f3e6 !important;
+}
+
+.navbar-light .navbar-brand:active {
   color: #10f3e6 !important;
 }
 

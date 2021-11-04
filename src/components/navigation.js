@@ -14,7 +14,9 @@ export default function navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto"></Nav>
           <Nav className="ms-auto links">
-            <Nav.Link href="#mywork">My Work</Nav.Link>
+            <Nav.Link active href="#mywork">
+              My Work
+            </Nav.Link>
             <Nav.Link href="#myskills">My skills</Nav.Link>
             <Nav.Link href="#contact">Hire me</Nav.Link>
           </Nav>
