@@ -58,7 +58,7 @@ export default class mywork extends Component {
                           PanTablet is an educational portal for the school
                           children in Poland.
                         </p>
-                        <a href="http://135.125.239.82:8081/#/home"> Visit</a>
+                        <a href="https://pracedzieci.pan-tablet.pl/#/home"> Visit</a>
                       </div>
                     </li>
                   </Fade>
